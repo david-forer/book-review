@@ -1,14 +1,22 @@
+<div class = "col-md-6 col-md-offset-3">
+
+    <div class = "new-book-form">
+
 <h1> Edit Book </h1>
 
 <%= simple_form_for @book, :html => { :multipart => true } do |f| %>
-<br>
+<div class = "tag-new">
 <%= f.select :category_id, @categories %>
-<div>
+</div>
+<div class = "tag-new">
 <%= f.file_field :book_img %>
+</div>
 <%= f.input :title, label: "Book Title" %>
 <%= f.input :description %>
 <%= f.input :author %>
 <%= f.button :submit %>
-</div>
+
 <% end %>
+</div>
+</div>
 
