@@ -324,3 +324,8 @@
  .file-new {
      padding-bottom: 15px;
  }
+
+ .links-footer {
+    @include background-tile;
+    margin-top: 25px;
+ }
