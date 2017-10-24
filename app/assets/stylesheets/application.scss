@@ -23,7 +23,7 @@
      box-sizing: border-box;
      background-color: #fff;
      border-radius: 5px;
-     box-shadow: 3px 3px 5px 6px #ccc;
+     box-shadow: 3px 3px 5px 6px rgb(121, 114, 114);
      padding: 1.5em 1.25em;
  }
  
@@ -37,7 +37,7 @@
  
  h1, h2, h3, h4, h5, h6 {
      font-family: 'Ubuntu', sans-serif;
-     font-weight: 300;
+     font-weight: 200;
  }
  
  p.alert, p.notice {
@@ -94,15 +94,15 @@
  /* Button/link styles */
  
  .btn-custom {
-     color: darken(#f1c40f, 5%);
+     color: darken(#bba651, 5%);
      background-color: #fff;
-     border: 1px solid darken(#f1c40f, 5%);
+     border: 1px solid darken(#61531b, 5%);
      padding: 8px 20px;
      border-radius: 5px;
      font-family: 'Ubuntu', sans-serif;
      &:hover {
          text-decoration: none;
-         background-color: darken(#f1c40f, 5%);
+         background-color: darken(#2b2408, 5%);
          color: #fff;
          transition: 0.5s;
      }
@@ -126,8 +126,13 @@
  .links {
  
      .btn-custom {
-         padding: 3px 10px;
+        
+         padding: 10px 10px;
          font-weight: 300;
+     }
+
+     .btn-group {
+        padding: 10px 10px 10px 10px;
      }
  
  }
@@ -186,7 +191,7 @@
      }
  
      .book-desc {
-         font-size: 1.05em;
+         font-size: 1.55em;
          line-height: 1.5;
          margin-bottom: 15px;
          margin-top: 15px;
